@@ -19,7 +19,7 @@ Run it like so
 python sso_synch.py <partner_id> <user_id> <path/to/private/key>
 ```
 
-Or so, specifying the URL of TY Connect
+Or so, specifying the URL of TY SSO Session Synchronization Service
 
 ```
 python sso_synch.py <partner_id> <user_id> <path/to/private/key> --sso-synch-url <http://other.url.here>
