@@ -82,7 +82,7 @@ def generate_signed_request(partner_id, user_id, private_key, sso_synch_url, met
 
     if failure_callback is not None:
         url += "&" + urlencode({
-            'success_callback': failure_callback
+            'failure_callback': failure_callback
         })
 
     return url
